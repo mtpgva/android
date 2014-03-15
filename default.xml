@@ -9,6 +9,9 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="gitorious"
+           fetch="git://gitorious.org/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -175,6 +178,7 @@
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
+  <project path="external/libsamsung-ipc" name="replicant/external_libsamsung-ipc" remote="gitorious" revision="master" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" />
