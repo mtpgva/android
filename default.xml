@@ -193,7 +193,7 @@
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
-  <project path="external/libsamsung-ipc" name="kbc-developers/external_libsamsung-ipc" remote="gitorious" revision="master" />
+  <project path="external/libsamsung-ipc" name="kbc-developers/external_libsamsung-ipc"/>
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
@@ -354,7 +354,7 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk"  />
-  <project path="hardware/ril/samsung-ril" name="kbc-developers/replicant-hardware_ril_samsung-ril" revision="master" />
+  <project path="hardware/ril/samsung-ril" name="kbc-developers/replicant-hardware_ril_samsung-ril" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
