@@ -505,5 +505,5 @@
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/kbc-developers" name="kbc-developers/android_vendor_aojp" />
+  <project path="vendor/aojp" name="kbc-developers/android_vendor_aojp" />
 </manifest>
