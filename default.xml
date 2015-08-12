@@ -30,9 +30,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="kbc-developers/android_bionic" groups="pdk" />
-  <project path="bootable/recovery-cm" name="kbc-developers/android_cwm_recovery" groups="pdk" >
-    <linkfile src="." dest="bootable/recovery" />
-  </project>
+  <project path="bootable/recovery-cm" name="kbc-developers/android_cwm_recovery" groups="pdk" />
   <project path="bootable/recovery-twrp" name="kbc-developers/android_twrp_recovery" groups="pdk" revision="android-5.1" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
