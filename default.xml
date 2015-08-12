@@ -598,5 +598,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="kbc-developers/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
-  <project path="vendor/aojp" name="kbc-developers/android_vendor_aojp" />
+  <project path="vendor/aojp" name="kbc-developers/android_vendor_aojp" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
 </manifest>
