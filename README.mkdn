@@ -1,6 +1,8 @@
 CyanogenMod
 ===========
 
+MTP Version - trying to change d2att to suport d2dcm
+
 Submitting Patches
 ------------------
 Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
@@ -9,7 +11,7 @@ You can do this by using these commands:
     (From root android directory)
     . build/envsetup.sh
     (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
+    cmgerrit <for(new)/changes(patch set)> <branch/change-id>
 
     repo start cm-12.1 .
     (Make your changes and commit)
@@ -39,7 +41,7 @@ Then to sync up:
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
-For more information on this Github Organization and how it is structured, 
+For more information on this Github Organization and how it is structured,
 please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
 Buildbot
