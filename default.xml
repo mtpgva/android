@@ -23,8 +23,8 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="mtpgva/android_build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" remote="mtpgva"/>
+  <project path="build" name="mtpgva/android_build" groups="pdk,tradefed" remote="mtpgva" >
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" name="mtpgva/android" remote="mtpgva" />
