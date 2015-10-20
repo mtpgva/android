@@ -10,6 +10,11 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="mtpgva"
+           fetch=".."
+           review="review.cyanogenmod.org"
+	   revision="refs/heads/cm-12.1a" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -18,11 +23,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <project path="build" name="mtpgva/android_build" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" remote="mtpgva"/>
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="mtpgva/android" remote="mtpgva" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
